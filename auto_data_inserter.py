@@ -20,7 +20,7 @@ def generate_string(length):
 	str = ''
 
 	for i in range(length):
-		choice = ran.choice(('consonantes','vocales'))
+		choice = ran.choice(('consonants','vowels'))
 
 		if str[-1:].lower() in vowels:
 			choice = 'consonants'
